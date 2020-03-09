@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Permission Management</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-03-04 17:00:57</sys_created_on>
+        <sys_id>9697a71a1b17001045313158cc4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Permission Management</sys_name>
+        <sys_package display_value="Azure Blob Storage Spoke" source="x_snc_blob_s">f7d556821b57001045313158cc4bcbd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Blob Storage Spoke">f7d556821b57001045313158cc4bcbd8</sys_scope>
+        <sys_update_name>sys_hub_category_9697a71a1b17001045313158cc4bcb93</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-03-04 17:00:57</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=9697a71a1b17001045313158cc4bcb93"/>
+</record_update>

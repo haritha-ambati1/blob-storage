@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Azure Blob Storage Spoke default_profile</name>
+        <oauth_entity display_value="Azure Blob Storage Spoke">97061a821b57001045313158cc4bcbe3</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-03-03 16:27:07</sys_created_on>
+        <sys_id>10565a821b57001045313158cc4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Blob Storage Spoke default_profile</sys_name>
+        <sys_package display_value="Azure Blob Storage Spoke" source="x_snc_blob_s">f7d556821b57001045313158cc4bcbd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Blob Storage Spoke">f7d556821b57001045313158cc4bcbd8</sys_scope>
+        <sys_update_name>oauth_entity_profile_10565a821b57001045313158cc4bcb45</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-03-03 16:27:07</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

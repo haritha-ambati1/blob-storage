@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="public_access_level" table="var__m_sys_hub_action_input_995796c21b57001045313158cc4bcb2b" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>public_access_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private (no anonymous access)</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_995796c21b57001045313158cc4bcb2b</name>
+            <sequence>0</sequence>
+            <sys_created_by>haritha.ambati@snc</sys_created_by>
+            <sys_created_on>2020-03-04 17:00:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d877631a1b17001045313158cc4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-03-04 17:00:02</sys_updated_on>
+            <value>private</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>public_access_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Blob (anonymous read access for blobs only)</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_995796c21b57001045313158cc4bcb2b</name>
+            <sequence>1</sequence>
+            <sys_created_by>haritha.ambati@snc</sys_created_by>
+            <sys_created_on>2020-03-03 16:34:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5f7dac21b57001045313158cc4bcb23</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-03-03 16:49:52</sys_updated_on>
+            <value>blob</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>public_access_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Container (anonymous read access for containers and blobs)</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_995796c21b57001045313158cc4bcb2b</name>
+            <sequence>2</sequence>
+            <sys_created_by>haritha.ambati@snc</sys_created_by>
+            <sys_created_on>2020-03-03 16:34:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81f7dac21b57001045313158cc4bcb24</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-03-03 16:49:52</sys_updated_on>
+            <value>container</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>public_access_level</element>
+            <name>var__m_sys_hub_action_input_995796c21b57001045313158cc4bcb2b</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>haritha.ambati@snc</sys_created_by>
+            <sys_created_on>2020-03-04 17:00:02</sys_created_on>
+            <sys_id>1477631a1b17001045313158cc4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Azure Blob Storage Spoke" source="x_snc_blob_s">f7d556821b57001045313158cc4bcbd8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Azure Blob Storage Spoke">f7d556821b57001045313158cc4bcbd8</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-03-04 17:00:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

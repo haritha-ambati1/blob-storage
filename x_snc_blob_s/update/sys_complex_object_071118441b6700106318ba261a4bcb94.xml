@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD431118441c670010645c8c01d19afa94</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>f7d556821b57001045313158cc4bcbd8</scope_name>
+        <serialized_content>{"FlowDesigner:FD431118441c670010645c8c01d19afa94":{"$COCollectionField":[{"metadata":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"fe93616a-a88a-4b8e-8173-df8ef02f5d18\"}"},"value":"String","value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"aa246edf-b05e-4f20-ab83-c0bbb5326a6e\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"7c6de09c-4cf5-4ac4-8027-d72b9708e865\",\"default_value\":\"\",\"label\":\"Metadata\",\"mandatory\":\"false\",\"child_name\":\"metadata\",\"uiUniqueId\":\"f03a3eec-411f-43ef-b7f1-de45f40ac980\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD431118441c670010645c8c01d19afa94\",\"child_label\":\"Metadata\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"91944b4c-4297-4878-b3b7-2cc42cd9b138\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"184f8c51-58a1-4370-902c-6ae4a4d82d12\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD431118441c670010645c8c01d19afa94.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"7c6de09c-4cf5-4ac4-8027-d72b9708e865\",\"default_value\":\"\",\"label\":\"Metadata\",\"mandatory\":\"false\",\"child_name\":\"metadata\",\"uiUniqueId\":\"f03a3eec-411f-43ef-b7f1-de45f40ac980\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD431118441c670010645c8c01d19afa94\",\"child_label\":\"Metadata\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"91944b4c-4297-4878-b3b7-2cc42cd9b138\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"184f8c51-58a1-4370-902c-6ae4a4d82d12\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-03-09 11:52:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>071118441b6700106318ba261a4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD431118441c670010645c8c01d19afa94</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Blob Storage Spoke" source="x_snc_blob_s">f7d556821b57001045313158cc4bcbd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Blob Storage Spoke">f7d556821b57001045313158cc4bcbd8</sys_scope>
+        <sys_update_name>sys_complex_object_071118441b6700106318ba261a4bcb94</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-03-09 11:52:59</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

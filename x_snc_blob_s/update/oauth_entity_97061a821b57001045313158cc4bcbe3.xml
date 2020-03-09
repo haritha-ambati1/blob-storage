@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://login.microsoftonline.com/a46df9b7-2c9b-49d5-8c9f-d1b3de4ba59f/oauth2/v2.0/authorize</auth_url>
+        <certificate_url/>
+        <client_id>0f176c77-9994-48b1-99b9-8004e783a56b</client_id>
+        <client_secret>iXHOsqvUTJ6+3E7lpC/VTzij8neNM2Zww5DmMcWRcb97MaSa+EyjGA==</client_secret>
+        <client_uuid>17061a821b57001045313158cc4bcbe3</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>Azure Blob Storage Spoke</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://veenam.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-03-03 16:27:07</sys_created_on>
+        <sys_id>97061a821b57001045313158cc4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Blob Storage Spoke</sys_name>
+        <sys_package display_value="Azure Blob Storage Spoke" source="x_snc_blob_s">f7d556821b57001045313158cc4bcbd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Blob Storage Spoke">f7d556821b57001045313158cc4bcbd8</sys_scope>
+        <sys_update_name>oauth_entity_97061a821b57001045313158cc4bcbe3</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-03-03 16:27:07</sys_updated_on>
+        <token_url>https://login.microsoftonline.com/a46df9b7-2c9b-49d5-8c9f-d1b3de4ba59f/oauth2/v2.0/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

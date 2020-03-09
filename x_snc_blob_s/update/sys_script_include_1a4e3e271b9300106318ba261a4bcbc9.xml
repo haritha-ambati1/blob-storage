@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_blob_s.AzureBlobStorageUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AzureBlobStorageUtils</name>
+        <script><![CDATA[var AzureBlobStorageUtils = Class.create();
+AzureBlobStorageUtils.prototype = {
+    initialize: function() {},
+	    ValidateContainerName: function(inputs) {
+        var containerName = inputs.trim();
+        var containerRGEX = new RegExp(
+        /(?=^.{3,63}$)/); // container names must be at least 3 and no more than 63 characters long
+        var containerRGEX1 = new RegExp(
+	    /(^[a-z0-9]+[a-z0-9-]+[a-z0-9]$)/); //start with a letter or number and contain only letters, numbers, and the hyphen. All letters used in container names must be lowercase.
+        var error_containerRGEX =
+            "Container Name must be between 3 and 63 characters long.";
+        var error_containerRGEX1 =
+            "Container Name must start with a letter or number, End with letter or number and contain only letters, numbers, and the hyphen. All letters used in container names must be lowercase.";
+        var result = containerRGEX.test(containerName);
+        var result1 = containerRGEX1.test(containerName);
+
+        if (!result)
+            throw new Error(error_containerRGEX);
+        else if (!result1)
+            throw new Error(error_containerRGEX1);
+        else
+            return containerName;
+    },
+
+    type: 'AzureBlobStorageUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-03-08 11:36:44</sys_created_on>
+        <sys_id>1a4e3e271b9300106318ba261a4bcbc9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>AzureBlobStorageUtils</sys_name>
+        <sys_package display_value="Azure Blob Storage Spoke" source="x_snc_blob_s">f7d556821b57001045313158cc4bcbd8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Azure Blob Storage Spoke">f7d556821b57001045313158cc4bcbd8</sys_scope>
+        <sys_update_name>sys_script_include_1a4e3e271b9300106318ba261a4bcbc9</sys_update_name>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-03-08 12:59:46</sys_updated_on>
+    </sys_script_include>
+</record_update>
